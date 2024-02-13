@@ -2,7 +2,6 @@
   --font: "Montserrat", sans-serif;
 
   --brown: #76453b;
-  --mate: #bba126;
   --white: #fff;
 }
 
@@ -28,7 +27,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: var(--font);
-  background-color: var(--mate);
+  background-color: #bba126;
   font-size: 1.8rem;
   background-image: url(./assets/fondo-ututo.png);
   background-repeat: no-repeat;
