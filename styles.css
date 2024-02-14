@@ -1,8 +1,6 @@
 :root {
   --font: "Montserrat", sans-serif;
-
   --brown: #76453b;
-  --white: #fff;
 }
 
 * {
@@ -27,7 +25,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: var(--font);
-  background-color: #bba126;
+  background-color: #bba126; /* Color matecocido*/
   font-size: 1.8rem;
   background-image: url(./assets/fondo-ututo.png);
   background-repeat: no-repeat;
@@ -96,6 +94,13 @@ img {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.btn-contact{
+  padding: 1.25rem 3rem;
+  border-radius: .4rem;
+  color: #fafafa;
+  background-color: #76453b;
 }
 
 @media (min-width: 900px) {
