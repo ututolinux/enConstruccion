@@ -103,6 +103,26 @@ img {
   background-color: #76453b;
 }
 
+.contact_form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.contact_form h3{
+  text-align: center;
+  font-weight: 800;
+  font-size: 2.8rem;
+}
+
+.contact_form a{
+  color: #fafafa;
+  padding: 1.25rem 3rem;
+  background-color: #76453b;
+  border-radius: .6rem;
+}
+
 @media (min-width: 900px) {
   .wrapper {
     width: 80%;
@@ -125,6 +145,14 @@ img {
 
   .left_aside {
     width: 60%;
+  }
+
+  .contact_form{
+    align-items: flex-start;
+  }
+
+  .contact_form h3{
+    text-align:left;
   }
 }
 
